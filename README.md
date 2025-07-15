@@ -34,10 +34,10 @@ traj/
 
 # 安装与运行
 ## 克隆项目
-<pre> ```bash git clone https://github.com/your-username/traj.git cd traj ``` <\pre>
+bash git clone https://github.com/your-username/traj——new.git cd traj 
 
 ## 创建环境并安装依赖 
-<pre> ```bash conda create -n trajgen python=3.10 conda activate trajgen pip install -r requirements.txt ``` </pre>
+bash conda create -n trajgen python=3.10 conda activate trajgen pip install -r requirements.txt 
 
 项目依赖包括：transformers, torch, torch_geometric, peft, wandb 等
 
@@ -45,10 +45,10 @@ traj/
 运行文件并输出结果
 
 ## 启动训练
-<pre> ```bash python train.py ```<\pre>
+bash python train.py 
 
 ## 运行推理
-<pre> ```bash python generate_test_dataset.py ```<\pre>
+bash python generate_test_dataset.py 
 
 # 数据说明
 · 支持多城市轨迹数据
